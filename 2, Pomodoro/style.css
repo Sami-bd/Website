@@ -1,0 +1,63 @@
+body{
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    margin-top: 20px;
+    text-align: center;
+    width: 600px;
+    height: fit-content;
+    background-color: antiquewhite;
+} 
+
+.tabs{
+    background-color: white ;
+    border: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tab{
+    
+    background-color:transparent;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.tab:hover{
+    cursor: pointer;
+}
+
+
+.timer{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 200px;
+    
+}
+
+
+.start{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.stop{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
