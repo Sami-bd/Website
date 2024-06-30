@@ -1,0 +1,105 @@
+
+
+.container{
+
+  max-width: 800px;
+
+  height: 100vh;
+  /* background-color: aqua; */
+}
+.arrow{
+  margin: 0 auto;
+  width: 60px;
+  /* rotate: 12deg; */
+  position: relative;
+  top: -19px;
+  z-index: 1111;
+}
+.arrow-box{
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.winner{
+  width: fit-content;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: hidden;
+}
+
+.cricket_page{
+  /* margin: 0 auto; */  
+  display: flex;
+  position: relative;
+  top: -40px;
+  justify-content: center;
+  align-items: center;
+  /* width: 400px; */
+  /* height: 470px; */
+  overflow: hidden;
+  /* background-color: red; */
+
+}
+.cricket_page img{
+  position: relative;
+  max-width: 350px;
+  
+  rotate: 33deg;
+}
+
+.display{
+  margin-left: 10px;
+  display: inline-block;
+}
+.info{
+  margin-top: 10px;
+}
+
+
+.show-result{
+  float: right;
+  color: red;
+  display: none;
+}
+
+
+.replay{
+  margin-top: 20px;
+  display: inline-block;
+  padding: 2px 10px;
+  border: 1px solid black;
+  display: none;
+  cursor: pointer;
+}
+/* .target{
+  display: inline-block;
+  margin: 0 auto;
+} */
+
+
+
+
+
+
+
+/* body{
+  background-color: gray;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+
+
+
+button{
+  position: relative;
+  top: 0;
+  background-color: white;
+
+} */
