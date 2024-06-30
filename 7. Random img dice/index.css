@@ -1,0 +1,28 @@
+.image_body{
+    box-sizing: border-box;
+    width: 400px;
+    height: 320px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+#dice{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 50px;
+}
+
+button{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
